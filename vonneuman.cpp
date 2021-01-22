@@ -8,13 +8,15 @@ int main()
     int n;
     cin>>n;
     int binary;
-    int decimal=0;
+    int decimal;
     int rem;
-    int weight=1;
+    int weight;
     int i;
     for(i=0;i<n;i++)
     {
         cin>>binary;
+        weight=1;
+        decimal=0;
         while(binary!=0)
       {
         rem=binary%10;
@@ -22,9 +24,6 @@ int main()
         binary=binary/10;
         weight=weight*2;
       }
-      cout<<decimal;
+      cout<<decimal<<endl;
     }
-    
-        
-    
 }
