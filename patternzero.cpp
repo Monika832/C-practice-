@@ -10,8 +10,8 @@ int main()
     while(row<=n)
     {
         cout<<row<<"\t";
-        int col=0;
-        while(col<row-2)
+        int col=1;
+        while(col<row-1)
         {
             col++;
             cout<<"0\t";
