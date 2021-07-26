@@ -19,7 +19,10 @@ int palidrome( char *arr){
             return false;
         }
         return true;
+    i++;
+    j--;
     }
+    
 }
 
 int main(){
