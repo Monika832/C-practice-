@@ -5,7 +5,7 @@ void toh(int n,char src,char helper,char des){
        return ;
    }
    toh(n-1,src,des, helper);
-   cout<<"Take"<<n<<"disc from"<<" "<< src<<" "<<"to"<<" "<<des<<endl;
+   cout<<"Take"<<" "<<n<<" "<<"disc from"<<" "<< src<<" "<<"to"<<" "<<des<<endl;
    toh(n-1,helper,src,des);
 }
 int main(){
