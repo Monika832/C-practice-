@@ -28,10 +28,11 @@ bool safe(int i,int j,vector<string> &v){
     return true;
 }
 void help(int i,vector<string>&v){
-    int count=0;
     if(i==v.size()){
-        for(int i=0;i<v.size();i++) count=count+1;//cout<<v[i]<<endl;
-        
+        res++; 
+        return;
+        //for(int i=0;i<v.size();i++)cout<<v[i]<<endl;
+        //cout<<endl<<endl;
     }
     else{
         for(int j=0;j<v[i].size();j++){
@@ -42,7 +43,6 @@ void help(int i,vector<string>&v){
             }
         }
     }
-    cout<<count;
 }
 
 
