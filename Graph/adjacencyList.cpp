@@ -17,7 +17,7 @@ public:
      }
      void printAdj(){
         for(int i=0;i<V;i++){
-            cout<<"Vertex"<<i<<"->";
+            cout<<"Vertex"<<i<<"->"; 
             for(int x:l[i]){
                 cout<<x<<",";
             }
